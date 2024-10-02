@@ -1174,7 +1174,7 @@ ul.icons li a:active {
 .badge-extra {
   border: 2px solid rgb(66, 66, 66);
   border-radius: 5px;
-  padding: 8px 7px;
+  padding: 3px 7px;
   white-space: nowrap;
   width: fit-content;
   align-items: center;
