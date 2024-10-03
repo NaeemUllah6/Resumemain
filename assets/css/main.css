@@ -1174,13 +1174,14 @@ ul.icons li a:active {
 .badge-extra {
   border: 2px solid rgb(66, 66, 66);
   border-radius: 5px;
-  padding: 3px 7px;
+  padding: 0px 4px;
   white-space: nowrap;
   width: fit-content;
   align-items: center;
-  width: 132px;
   display: inline-block;
   text-align: center;
+  margin-left: auto;
+ 
 }
 .badge-extra1 {
   border: 2px solid rgb(66, 66, 66);
@@ -1194,11 +1195,13 @@ ul.icons li a:active {
   font-size: 14px;
 }
 .p-margin-about{
-  display: grid;
-  grid-template-columns: 1fr 132px;
+  display: flex;
   justify-content: space-between;
-  gap: 15px;
+  align-items: center;
   text-align: left;
+  gap: 15px;
+  margin-bottom: 0.5rem;
+
 }
 
 .badge-extra:hover {
