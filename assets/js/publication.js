@@ -1,7 +1,9 @@
 const publicationArticle = document.querySelector(".publicationArticle");
 console.log(publicationArticle, document.querySelector(".publicationArticle"));
 publicationArticle.classList.add("active");
-Fancybox.bind('[data-fancybox="gallery"]', {});
+Fancybox.bind('[data-fancybox="gallery"]', {
+  transitionEffect:"slide",
+});
 
 document.querySelectorAll(".copy-btn").forEach((button) => {
   button.addEventListener("click", () => {
